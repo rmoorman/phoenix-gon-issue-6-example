@@ -38,6 +38,7 @@ defmodule ExampleWeb.Endpoint do
     key: "_example_key",
     signing_salt: "GTpzM5np"
 
+  plug PhoenixGon.Pipeline
   plug ExampleWeb.Router
 
   @doc """
